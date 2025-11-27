@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* GLOBAL THEME COLORS */
+body {
+  @apply bg-brand-cream text-brand-dark font-sans;
+}
+
+/* HEADINGS */
+h1, h2, h3, h4 {
+  @apply text-brand-dark font-serif;
+}
+
+/* LINKS */
+a {
+  @apply text-brand-primary transition;
+}
+
+a:hover {
+  @apply text-brand-secondary;
+}
+
+/* BUTTON DEFAULT STYLE */
+.btn-primary {
+  @apply bg-brand-primary text-white px-6 py-3 rounded-lg font-semibold hover:bg-brand-secondary transition;
+}
+
+.btn-outline {
+  @apply border-2 border-brand-primary text-brand-primary px-6 py-3 rounded-lg font-semibold hover:bg-brand-light transition;
+}
+
+/* SECTION SPACING */
+section {
+  @apply py-20;
+}
+
+/* SMOOTH SCROLL */
+html {
+  scroll-behavior: smooth;
+}
+
+/* OPTIONAL – LUXURY SCROLLBAR */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C79A9A;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1E6E4;
+}
