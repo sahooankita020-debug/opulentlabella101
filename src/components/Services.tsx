@@ -46,6 +46,7 @@ const serviceImages: Record<string, string[]> = {
     "/services/nails/nails3.jpg",
     "/services/nails/nails4.jpg",
     "/services/nails/nails5.jpg",
+    "/services/nails/nails6.jpg",
     "/services/nails/nails7.jpg",
     "/services/nails/nails8.jpg",
     "/services/nails/nails9.jpg",
@@ -63,8 +64,11 @@ const serviceImages: Record<string, string[]> = {
     "/services/makeup/makeup3.webp",
     "/services/makeup/makeup4.webp",
     "/services/makeup/makeup5.webp",
+    "/services/makeup/makeup6.jpg",
   ],
-  Hair: [],
+  Hair: [
+    "/services/hair/hair1.jpg",
+  ],
   Waxing: [
     "/services/waxing/wax1.jpg",
     "/services/waxing/wax2.jpg",
